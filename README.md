@@ -10,7 +10,7 @@ npm install
 npm run build
 ```
 
-Then locate the dist folder and host it to same local web server (could be XAMPP for example).
+Then locate the dist folder and host it to local web server (XAMPP for example).
 
 Go to [MainWindow.xaml](https://github.com/DlbSt/WebViewWPFVue/blob/main/WebViewWPFVue/Views/MainWindow.xaml) in WPF project and change the source IP address of webview. Then build the WPF project and you can try the functionality.
 
