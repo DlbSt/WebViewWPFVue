@@ -11,8 +11,7 @@
         prism:ViewModelLocator.AutoWireViewModel="True"
         WindowState="Maximized">
     <Grid>
-        <wpf:WebView2 x:Name="webView"
-                      Source="http://localhost:1346/webviewproject/">
+        <wpf:WebView2 x:Name="webView">
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="WebMessageReceived">
                     <prism:InvokeCommandAction Command="{Binding OnWebMessageReceivedCommand, Mode=OneTime}" />
