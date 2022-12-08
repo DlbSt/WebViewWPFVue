@@ -18,16 +18,6 @@ namespace WebViewWPFVue.Views
         public MainWindow()
         {
             InitializeComponent();
-
-            Loaded += MainWindow_Loaded;
-        }
-
-        private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
-        {
-            await webView.EnsureCoreWebView2Async();
-
-            webView.CoreWebView2.SetVirtualHostNameToFolderMapping(hostName: "vueapp", folderPath: "..\\..\\..\\..\\vueproject\\dist", accessKind: CoreWebView2HostResourceAccessKind.Allow);
-            webView.CoreWebView2.Navigate("https://vueapp/index.html");
         }
     }
 }

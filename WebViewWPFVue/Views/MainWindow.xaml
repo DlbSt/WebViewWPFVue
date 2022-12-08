@@ -18,6 +18,7 @@
                 </i:EventTrigger>
             </i:Interaction.Triggers>
             <i:Interaction.Behaviors>
+                <behaviors:WebViewInitializationBehavior />
                 <behaviors:WebViewPostMessageBehavior />
             </i:Interaction.Behaviors>
         </wpf:WebView2>
