@@ -2,6 +2,8 @@
 
 Project showing possible interaction between Vue.JS web app and WPF app (using WebView2).
 
+You can find more information about this project in [this article](https://daliborstys.com/mvvm/hybrid-apps-with-wpf-vue-js-using-webview2/).
+
 ## Setup
 
 There is no need to start vue app independently, since there is webview2 api used. If the app is not started via WPF app, there will be an error in web console.
